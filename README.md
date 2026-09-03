@@ -64,3 +64,10 @@ pip install -r requirements.txt
 
 ---
 
+## Running The Application
+
+```bash
+streamlit run app.py
+```
+---
+
