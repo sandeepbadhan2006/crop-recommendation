@@ -21,22 +21,46 @@ The Crop Price Prediction System is a machine learning model designed to forecas
 
 ```
 ---
-**2. Set Up Virtual Environment**
 
+## 2️⃣ Create a Virtual Environment
 
-*Create virtual environment*
+```bash
+python -m venv .env
+```
 
+## 3️⃣ Activate the Virtual Environment
 
-python -m venv env
+### Windows
 
+```bash
+.env\Scripts\activate
+```
 
-*Activate environment (Windows)*
+### Linux / macOS
 
+```bash
+source .env/bin/activate
+```
 
-env\Scripts\activate
+After activation, you should see:
 
+```text
+(.env)
+```
 
-*Activate environment (Mac/Linux)*
+at the beginning of your terminal.
 
+## 4️⃣ Upgrade pip
 
-source env/bin/activate
+```bash
+python -m pip install --upgrade pip
+```
+
+## 5️⃣ Install Project Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
