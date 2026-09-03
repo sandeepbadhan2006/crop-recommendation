@@ -21,22 +21,22 @@ The Crop Price Prediction System is a machine learning model designed to forecas
 
 ```
 ---
-**2. Set Up Virtual Environment
+**2. Set Up Virtual Environment**
 
 
-Create virtual environment
+*Create virtual environment*
 
 
 python -m venv env
 
 
-Activate environment (Windows)
+*Activate environment (Windows)*
 
 
 env\Scripts\activate
 
 
-Activate environment (Mac/Linux)
+*Activate environment (Mac/Linux)*
 
 
 source env/bin/activate
